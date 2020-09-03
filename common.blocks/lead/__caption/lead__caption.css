@@ -1,0 +1,27 @@
+.lead__caption {
+    /* font-family: 'Inter', Arial, sans-serif; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 11px;
+    display: flex;
+    align-self: flex-start;
+    margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead__caption {
+        padding-top: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__caption {
+        margin: 0;
+        padding-top: 8px;
+    }
+}

@@ -1,0 +1,14 @@
+.intro__digits-text {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .intro__digits-text {
+        font-size: 0.75rem;
+        line-height: 1.25rem;
+    }
+}

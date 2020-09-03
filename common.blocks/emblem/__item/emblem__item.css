@@ -1,0 +1,9 @@
+.emblem__item {
+    width: 208px;
+    height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}

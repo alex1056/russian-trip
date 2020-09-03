@@ -1,0 +1,12 @@
+.video__link {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    opacity: 1;
+    color: white;
+    transition: unset;
+}
+
+.video__link:hover {
+    opacity: unset;
+    transition: unset;
+}

@@ -1,0 +1,33 @@
+.video__subtitle {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    z-index: 2;
+}
+
+@media screen and (min-width: 1280px) {
+    .video__subtitle {
+        font-size: 0.87rem;
+        line-height: 0.93rem;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .video__subtitle {
+        font-size: 0.87rem;
+        line-height: 0.93rem;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .video__subtitle {
+        font-size: 0.87rem;
+        line-height: 0.93rem;
+        min-width: unset;
+        max-width: 250px;
+    }
+}

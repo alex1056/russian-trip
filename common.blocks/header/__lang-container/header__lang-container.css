@@ -1,0 +1,13 @@
+.header__lang-container {
+    width: 78px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7px;
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang-container {
+        width: 64px;
+        padding-bottom: 0;
+    }
+}

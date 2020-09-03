@@ -1,0 +1,12 @@
+.intro__digits {
+    margin: 0;
+    margin-top: 35px;
+    padding: 0;
+    padding-bottom: 92px;
+}
+
+@media screen and (max-width: 767px) {
+    .intro__digits {
+        padding-bottom: 64px;
+    }
+}

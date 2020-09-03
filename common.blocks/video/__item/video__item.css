@@ -1,0 +1,41 @@
+.video__item {
+    width: 49.24%;
+    min-width: 288px;
+    padding-bottom: 27.28%;
+    position: relative;
+    background: linear-gradient(rgba(0%, 0%, 0%, 0.5), rgba(0%, 0%, 0%, 0.5)), url(../../../images/video-kamchatka.jpg);
+    background-blend-mode: multiply, normal;
+    background-size: cover;
+    border-radius: 5px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.video__item:last-child {
+    background: linear-gradient(rgba(0%, 0%, 0%, 0.5), rgba(0%, 0%, 0%, 0.5)), url(../../../images/video-observ.jpg);
+    background-size: cover;
+}
+
+@media screen and (max-width: 1279px) {
+    .video__item {
+        padding-bottom: 31%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .video__item {
+        padding-bottom: 27%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video__item {
+        width: 100%;
+        padding-bottom: 55%;
+    }
+    .video__item:last-child {
+        margin-top: 8px;
+    }
+}

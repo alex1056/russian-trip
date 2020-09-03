@@ -1,0 +1,18 @@
+.intro__content-row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 70% 28%;
+    grid-column-gap: 2%;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__content-row {
+        width: 100%;
+        grid-template-columns: 100% 0%;
+        grid-column-gap: 0;
+        margin-top: 32px;
+    }
+}

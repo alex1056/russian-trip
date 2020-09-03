@@ -1,0 +1,26 @@
+.comments__ph-quote {
+    margin: 0;
+    margin-top: 42px;
+    padding: 0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    quotes: '«' '»';
+}
+
+.comments__ph-quote:before {
+    content: open-quote;
+}
+
+.comments__ph-quote:after {
+    content: close-quote;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__ph-quote {
+        order: 3;
+        font-size: 1rem;
+        line-height: 1.43rem;
+        margin-top: 24px;
+    }
+}

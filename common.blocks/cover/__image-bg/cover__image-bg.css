@@ -1,0 +1,32 @@
+.cover__image-bg {
+    width: 100%;
+    padding-bottom: 50%;
+    background: url('../../../images/cover-pic.jpg');
+    background-size: cover;
+    z-index: 0;
+    position: relative;
+}
+
+@media screen and (max-width: 1280px) {
+    .cover__image-bg {
+        padding-bottom: 56%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__image-bg {
+        padding-bottom: 63%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__image-bg {
+        padding-bottom: 72%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .cover__image-bg {
+        padding-bottom: 67.5%;
+    }
+}

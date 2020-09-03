@@ -1,0 +1,22 @@
+.additional__item {
+    width: 284px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0%, 0%, 0%, 0.5), rgba(0%, 0%, 0%, 0.5)), url(../../../images/additional-novor.jpg);
+    background-blend-mode: multiply, normal;
+    border-radius: 5px;
+}
+
+.additional__item:nth-child(2n) {
+    background: linear-gradient(rgba(0%, 0%, 0%, 0.5), rgba(0%, 0%, 0%, 0.5)), url(../../../images/additional-shihan.jpg);
+}
+
+.additional__item:nth-child(3n) {
+    background: linear-gradient(rgba(0%, 0%, 0%, 0.5), rgba(0%, 0%, 0%, 0.5)), url(../../../images/additional-cherepovets.jpg);
+}
+
+.additional__item:last-child {
+    background: linear-gradient(rgba(0%, 0%, 0%, 0.5), rgba(0%, 0%, 0%, 0.5)), url(../../../images/additional-lenivets.jpg);
+}

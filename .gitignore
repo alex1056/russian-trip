@@ -1,0 +1,7 @@
+/node_modules
+/dist
+.vscode
+### OSX ###
+# General
+
+.DS_Store
